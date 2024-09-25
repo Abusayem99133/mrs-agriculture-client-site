@@ -5,14 +5,7 @@ import experience1 from "../../assets/image/experience/4.png";
 const Experience = () => {
   return (
     <section>
-      <div
-        className="mt-32 flex items-center gap-4 "
-        // style={{
-        //   backgroundImage: `url(${experience1})`,
-        //   backgroundRepeat: "no-repeat",
-        //   backgroundPosition: "",
-        // }}
-      >
+      <div className="mt-32 flex items-center gap-4 ">
         <div className="">
           <h3 className="text-2xl font-bold">WHO WE ARE</h3>
 
@@ -33,7 +26,16 @@ const Experience = () => {
             <h1 className="text-5xl ml-8 font-bold my-2">36+</h1>
             <p className=" font-bold">Years of experience</p>
           </div>
-          <img className="" src={experience} alt="" />
+          <img
+            // style={{
+            //   backgroundImage: `url(${experience1})`,
+            //   backgroundRepeat: "no-repeat",
+            //   backgroundPosition: "cover",
+            // }}
+            className=""
+            src={experience}
+            alt=""
+          />
         </div>
       </div>
       <div>
