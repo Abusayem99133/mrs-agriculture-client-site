@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "./Main";
 import Home from "../HomePage/Home";
+import MainChatBox from "../LiveChatBox/MainChatBox";
 
 export const router = createBrowserRouter([
   {
@@ -12,6 +13,7 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
+      { path: "/liveChat", element: <MainChatBox /> },
     ],
   },
 ]);
