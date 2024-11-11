@@ -20,6 +20,17 @@ const Banner = () => {
           navigation={true}
           modules={[Pagination, Navigation]}
           className="mySwiper"
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+            },
+            768: {
+              sliderPreview: 1,
+            },
+            1024: {
+              slidesPerView: 1,
+            },
+          }}
         >
           <SwiperSlide>
             <div
