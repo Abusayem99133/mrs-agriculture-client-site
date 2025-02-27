@@ -13,7 +13,7 @@ export const router = createBrowserRouter([
         path: "/",
         element: <Home />,
       },
-      { path: "/liveChat", element: <MainChatBox /> },
+      { path: "liveChat", element: <MainChatBox /> },
     ],
   },
 ]);
